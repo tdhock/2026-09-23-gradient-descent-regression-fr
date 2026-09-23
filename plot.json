@@ -216,9 +216,9 @@
 },
 "total": 20 
 },
-"geom4_tallrect_perteIterations": {
+"geom4_tallrect_erreurIterations": {
  "geom": "tallrect",
-"classed": "geom4_tallrect_perteIterations",
+"classed": "geom4_tallrect_erreurIterations",
 "aes": {
 "key": "key",
 "xmin": "min",
@@ -261,12 +261,12 @@
 "chunks": 1,
 "total": 1 
 },
-"geom5_line_perteIterations": {
+"geom5_line_erreurIterations": {
  "geom": "line",
-"classed": "geom5_line_perteIterations",
+"classed": "geom5_line_erreurIterations",
 "aes": {
 "x": "itération",
-"y": "perte",
+"y": "erreur",
 "group": "taux",
 "colour": "taux",
 "clickSelects": "tendence.taux",
@@ -303,12 +303,12 @@
 "chunks": 1,
 "total": 1 
 },
-"geom6_point_perteIterations": {
+"geom6_point_erreurIterations": {
  "geom": "point",
-"classed": "geom6_point_perteIterations",
+"classed": "geom6_point_erreurIterations",
 "aes": {
 "x": "itération",
-"y": "perte",
+"y": "erreur",
 "key": "1",
 "showSelected1": "tendence.taux",
 "showSelected2": "itération"
@@ -345,14 +345,14 @@
 "chunks": 1,
 "total": 1 
 },
-"geom7_tile_perteGrid": {
+"geom7_tile_erreurGrid": {
  "geom": "rect",
-"classed": "geom7_tile_perteGrid",
+"classed": "geom7_tile_erreurGrid",
 "aes": {
 "x": "pente",
 "y": "ordonnée",
-"fill": "perte.relative",
-"colour": "perte.relative",
+"fill": "erreur.relative",
+"colour": "erreur.relative",
 "key": "paste(pente, ordonnée)",
 "showSelected1": "tendence.taux"
 },
@@ -417,9 +417,9 @@
 },
 "total": 20 
 },
-"geom8_point_perteGrid": {
+"geom8_point_erreurGrid": {
  "geom": "point",
-"classed": "geom8_point_perteGrid",
+"classed": "geom8_point_erreurGrid",
 "aes": {
 "x": "pente",
 "y": "ordonnée",
@@ -456,9 +456,9 @@
 "chunks": 1,
 "total": 1 
 },
-"geom9_point_perteGrid": {
+"geom9_point_erreurGrid": {
  "geom": "point",
-"classed": "geom9_point_perteGrid",
+"classed": "geom9_point_erreurGrid",
 "aes": {
 "x": "pente",
 "y": "ordonnée",
@@ -496,9 +496,9 @@
 "chunks": 1,
 "total": 1 
 },
-"geom10_segment_perteGrid": {
+"geom10_segment_erreurGrid": {
  "geom": "segment",
-"classed": "geom10_segment_perteGrid",
+"classed": "geom10_segment_erreurGrid",
 "aes": {
 "x": "pente",
 "y": "ordonnée",
@@ -539,9 +539,9 @@
 "chunks": 1,
 "total": 1 
 },
-"geom11_point_perteGrid": {
+"geom11_point_erreurGrid": {
  "geom": "point",
-"classed": "geom11_point_perteGrid",
+"classed": "geom11_point_erreurGrid",
 "aes": {
 "x": "after.pente",
 "y": "after.ordonnée",
@@ -608,7 +608,7 @@
 "selected": [ "0.001", "0.01", "0.1", "1" ],
 "levels": [ "0.001", "0.01", "0.1", "1" ],
 "update": [
- "geom5_line_perteIterations" 
+ "geom5_line_erreurIterations" 
 ] 
 },
 "tendence.taux": {
@@ -623,13 +623,13 @@
  "geom1_point_data",
 "geom2_segment_data",
 "geom3_line_data",
-"geom5_line_perteIterations",
-"geom6_point_perteIterations",
-"geom7_tile_perteGrid",
-"geom8_point_perteGrid",
-"geom9_point_perteGrid",
-"geom10_segment_perteGrid",
-"geom11_point_perteGrid" 
+"geom5_line_erreurIterations",
+"geom6_point_erreurIterations",
+"geom7_tile_erreurGrid",
+"geom8_point_erreurGrid",
+"geom9_point_erreurGrid",
+"geom10_segment_erreurGrid",
+"geom11_point_erreurGrid" 
 ],
 "duration":      500 
 },
@@ -643,12 +643,12 @@
 "update": [
  "geom2_segment_data",
 "geom3_line_data",
-"geom4_tallrect_perteIterations",
-"geom6_point_perteIterations",
-"geom8_point_perteGrid",
-"geom9_point_perteGrid",
-"geom10_segment_perteGrid",
-"geom11_point_perteGrid" 
+"geom4_tallrect_erreurIterations",
+"geom6_point_erreurIterations",
+"geom8_point_erreurGrid",
+"geom9_point_erreurGrid",
+"geom10_segment_erreurGrid",
+"geom11_point_erreurGrid" 
 ],
 "duration":      500 
 } 
@@ -868,7 +868,7 @@
 "geom3_line_data" 
 ] 
 },
-"perteIterations": {
+"erreurIterations": {
  "panel_margin_lines":     0.27,
 "legend": {
  "taux": {
@@ -1325,7 +1325,7 @@
 "xsize": "12pt",
 "xangle":        0,
 "xanchor": "middle",
-"ytitle": "perte",
+"ytitle": "erreur",
 "strip_text_ysize": "12pt",
 "ysize": "12pt",
 "yangle":        0,
@@ -1354,7 +1354,7 @@
 "6",
 "12.5" 
 ],
-"title": "Perte, choisir itération/données/taux",
+"title": "Erreur, choisir itération/données/taux",
 "title_size": "14.4pt",
 "options": {
  "width":      400,
@@ -1366,19 +1366,19 @@
 "last_in_row": null 
 },
 "geoms": [
- "geom4_tallrect_perteIterations",
-"geom5_line_perteIterations",
-"geom6_point_perteIterations" 
+ "geom4_tallrect_erreurIterations",
+"geom5_line_erreurIterations",
+"geom6_point_erreurIterations" 
 ] 
 },
-"perteGrid": {
+"erreurGrid": {
  "panel_margin_lines":     0.27,
 "legend": {
- "perte.relative": {
+ "erreur.relative": {
  "guide": "legend",
 "geoms": "polygon",
-"title": "perte.relative",
-"class": "perte.relative",
+"title": "erreur.relative",
+"class": "erreur.relative",
 "selector": null,
 "is_discrete": false,
 "legend_type": [ "fill", "colour" ],
@@ -1576,11 +1576,11 @@
 "last_in_row": null 
 },
 "geoms": [
- "geom7_tile_perteGrid",
-"geom8_point_perteGrid",
-"geom9_point_perteGrid",
-"geom10_segment_perteGrid",
-"geom11_point_perteGrid" 
+ "geom7_tile_erreurGrid",
+"geom8_point_erreurGrid",
+"geom9_point_erreurGrid",
+"geom10_segment_erreurGrid",
+"geom11_point_erreurGrid" 
 ] 
 } 
 },
