@@ -1,0 +1,1589 @@
+{
+ "geoms": {
+ "geom1_point_data": {
+ "geom": "point",
+"classed": "geom1_point_data",
+"aes": {
+"x": "x",
+"y": "y",
+"key": "x",
+"showSelected1": "tendence.taux"
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"showSelected": "tendence.taux",
+"help_showSelected": "tendence.taux" 
+},
+"types": {
+"x": "numeric",
+"y": "numeric",
+"key": "numeric",
+"showSelected1": "character",
+"PANEL": "integer",
+"group": "character"
+},
+"chunk_order": [
+ "tendence.taux" 
+],
+"nest_order": [],
+"subset_order": [],
+"columns": {
+ "common": [
+ "group",
+"key",
+"x" 
+] 
+},
+"chunks": {
+ "constante 0.001": 1,
+"constante 0.01": 2,
+"constante 0.1": 3,
+"constante 1": 4,
+"lin.bas 0.001": 5,
+"lin.bas 0.01": 6,
+"lin.bas 0.1": 7,
+"lin.bas 1": 8,
+"lin.haut 0.001": 9,
+"lin.haut 0.01": 10,
+"lin.haut 0.1": 11,
+"lin.haut 1": 12,
+"quad. 0.001": 13,
+"quad. 0.01": 14,
+"quad. 0.1": 15,
+"quad. 1": 16,
+"sin 0.001": 17,
+"sin 0.01": 18,
+"sin 0.1": 19,
+"sin 1": 20 
+},
+"total": 20 
+},
+"geom2_segment_data": {
+ "geom": "segment",
+"classed": "geom2_segment_data",
+"aes": {
+"x": "x",
+"y": "y",
+"key": "x",
+"colour": "ligne",
+"xend": "x",
+"yend": "inf.pred",
+"showSelected1": "tendence.taux",
+"showSelected2": "itération",
+"showSelected3": "ligne"
+},
+"params": {
+ "lineend": "butt",
+"na.rm": false,
+"na.rm": false,
+"size":        1,
+"chunk_vars": "tendence.taux",
+"showSelected": [ "tendence.taux", "itération", "ligne" ],
+"help_showSelected": [ "tendence.taux", "itération", "ligne" ] 
+},
+"types": {
+"colour": "rgb",
+"x": "numeric",
+"xend": "numeric",
+"y": "numeric",
+"yend": "numeric",
+"key": "numeric",
+"showSelected1": "character",
+"showSelected2": "integer",
+"showSelected3": "character",
+"PANEL": "integer",
+"group": "character"
+},
+"chunk_order": [
+ "tendence.taux" 
+],
+"nest_order": [
+ "showSelected2",
+"showSelected3" 
+],
+"subset_order": [
+ "showSelected2",
+"showSelected3" 
+],
+"columns": {
+ "common": [
+ "group",
+"colour",
+"key",
+"showSelected2",
+"showSelected3",
+"x",
+"xend" 
+] 
+},
+"chunks": {
+ "constante 0.001": 1,
+"constante 0.01": 2,
+"constante 0.1": 3,
+"constante 1": 4,
+"lin.bas 0.001": 5,
+"lin.bas 0.01": 6,
+"lin.bas 0.1": 7,
+"lin.bas 1": 8,
+"lin.haut 0.001": 9,
+"lin.haut 0.01": 10,
+"lin.haut 0.1": 11,
+"lin.haut 1": 12,
+"quad. 0.001": 13,
+"quad. 0.01": 14,
+"quad. 0.1": 15,
+"quad. 1": 16,
+"sin 0.001": 17,
+"sin 0.01": 18,
+"sin 0.1": 19,
+"sin 1": 20 
+},
+"total": 20 
+},
+"geom3_line_data": {
+ "geom": "line",
+"classed": "geom3_line_data",
+"aes": {
+"x": "x",
+"y": "inf.pred",
+"key": "1",
+"colour": "ligne",
+"showSelected1": "tendence.taux",
+"showSelected2": "itération",
+"showSelected3": "ligne"
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"chunk_vars": "tendence.taux",
+"showSelected": [ "tendence.taux", "itération", "ligne" ],
+"help_showSelected": [ "tendence.taux", "itération", "ligne" ] 
+},
+"types": {
+"colour": "rgb",
+"x": "numeric",
+"y": "numeric",
+"key": "numeric",
+"showSelected1": "character",
+"showSelected2": "integer",
+"showSelected3": "character",
+"PANEL": "integer",
+"group": "character"
+},
+"chunk_order": [
+ "tendence.taux" 
+],
+"nest_order": [
+ "showSelected2",
+"showSelected3" 
+],
+"subset_order": [
+ "showSelected2",
+"showSelected3" 
+],
+"columns": {
+ "common": [
+ "group",
+"colour",
+"key",
+"showSelected2",
+"showSelected3",
+"x" 
+] 
+},
+"chunks": {
+ "constante 0.001": 1,
+"constante 0.01": 2,
+"constante 0.1": 3,
+"constante 1": 4,
+"lin.bas 0.001": 5,
+"lin.bas 0.01": 6,
+"lin.bas 0.1": 7,
+"lin.bas 1": 8,
+"lin.haut 0.001": 9,
+"lin.haut 0.01": 10,
+"lin.haut 0.1": 11,
+"lin.haut 1": 12,
+"quad. 0.001": 13,
+"quad. 0.01": 14,
+"quad. 0.1": 15,
+"quad. 1": 16,
+"sin 0.001": 17,
+"sin 0.01": 18,
+"sin 0.1": 19,
+"sin 1": 20 
+},
+"total": 20 
+},
+"geom4_tallrect_perteIterations": {
+ "geom": "tallrect",
+"classed": "geom4_tallrect_perteIterations",
+"aes": {
+"key": "key",
+"xmin": "min",
+"xmax": "max",
+"clickSelects.variable": "var",
+"clickSelects.value": "click.val",
+"showSelected.variable": "var",
+"showSelected.value": "show.val"
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"alpha":      0.5,
+"showSelected": "show.val",
+"clickSelects": "click.val",
+"help_showSelected": "itération",
+"help_clickSelects": "itération" 
+},
+"types": {
+"xmin": "numeric",
+"xmax": "numeric",
+"key": "character",
+"clickSelects.variable": "character",
+"clickSelects.value": "integer",
+"showSelected.variable": "character",
+"showSelected.value": "integer",
+"PANEL": "factor",
+"group": "character"
+},
+"chunk_order": [],
+"nest_order": [
+ "PANEL",
+"showSelected.variable",
+"showSelected.value" 
+],
+"subset_order": [
+ "PANEL",
+"showSelected.variable" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom5_line_perteIterations": {
+ "geom": "line",
+"classed": "geom5_line_perteIterations",
+"aes": {
+"x": "itération",
+"y": "perte",
+"group": "taux",
+"colour": "taux",
+"clickSelects": "tendence.taux",
+"showSelected1": "taux"
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"size":        4,
+"clickSelects": "tendence.taux",
+"showSelected": "taux",
+"help_clickSelects": "tendence.taux",
+"help_showSelected": "taux" 
+},
+"types": {
+"colour": "rgb",
+"x": "numeric",
+"y": "numeric",
+"group": "character",
+"clickSelects": "character",
+"showSelected1": "factor",
+"PANEL": "factor"
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1",
+"PANEL",
+"group" 
+],
+"subset_order": [
+ "showSelected1",
+"PANEL" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom6_point_perteIterations": {
+ "geom": "point",
+"classed": "geom6_point_perteIterations",
+"aes": {
+"x": "itération",
+"y": "perte",
+"key": "1",
+"showSelected1": "tendence.taux",
+"showSelected2": "itération"
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"colour": "#000000",
+"fill": "#FFFFFF",
+"size":        5,
+"showSelected": [ "tendence.taux", "itération" ],
+"help_showSelected": [ "tendence.taux", "itération" ] 
+},
+"types": {
+"x": "numeric",
+"y": "numeric",
+"key": "numeric",
+"showSelected1": "character",
+"showSelected2": "integer",
+"PANEL": "factor",
+"group": "character"
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected2",
+"showSelected1",
+"PANEL" 
+],
+"subset_order": [
+ "showSelected2",
+"showSelected1",
+"PANEL" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom7_tile_perteGrid": {
+ "geom": "rect",
+"classed": "geom7_tile_perteGrid",
+"aes": {
+"x": "pente",
+"y": "ordonnée",
+"fill": "perte.relative",
+"colour": "perte.relative",
+"key": "paste(pente, ordonnée)",
+"showSelected1": "tendence.taux"
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"showSelected": "tendence.taux",
+"help_showSelected": "tendence.taux" 
+},
+"types": {
+"fill": "rgb",
+"colour": "rgb",
+"x": "numeric",
+"y": "numeric",
+"key": "character",
+"showSelected1": "character",
+"PANEL": "integer",
+"group": "character",
+"xmin": "numeric",
+"xmax": "numeric",
+"ymin": "numeric",
+"ymax": "numeric"
+},
+"chunk_order": [
+ "tendence.taux" 
+],
+"nest_order": [],
+"subset_order": [],
+"columns": {
+ "common": [
+ "group",
+"key",
+"x",
+"xmax",
+"xmin",
+"y",
+"ymax",
+"ymin" 
+] 
+},
+"chunks": {
+ "constante 0.001": 1,
+"constante 0.01": 2,
+"constante 0.1": 3,
+"constante 1": 4,
+"lin.bas 0.001": 5,
+"lin.bas 0.01": 6,
+"lin.bas 0.1": 7,
+"lin.bas 1": 8,
+"lin.haut 0.001": 9,
+"lin.haut 0.01": 10,
+"lin.haut 0.1": 11,
+"lin.haut 1": 12,
+"quad. 0.001": 13,
+"quad. 0.01": 14,
+"quad. 0.1": 15,
+"quad. 1": 16,
+"sin 0.001": 17,
+"sin 0.01": 18,
+"sin 0.1": 19,
+"sin 1": 20 
+},
+"total": 20 
+},
+"geom8_point_perteGrid": {
+ "geom": "point",
+"classed": "geom8_point_perteGrid",
+"aes": {
+"x": "pente",
+"y": "ordonnée",
+"key": "itération",
+"clickSelects": "itération",
+"showSelected1": "tendence.taux"
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"size":        5,
+"alpha":     0.55,
+"showSelected": "tendence.taux",
+"clickSelects": "itération",
+"help_showSelected": "tendence.taux",
+"help_clickSelects": "itération" 
+},
+"types": {
+"x": "numeric",
+"y": "numeric",
+"key": "integer",
+"clickSelects": "integer",
+"showSelected1": "character",
+"PANEL": "integer",
+"group": "character"
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom9_point_perteGrid": {
+ "geom": "point",
+"classed": "geom9_point_perteGrid",
+"aes": {
+"x": "pente",
+"y": "ordonnée",
+"key": "1",
+"showSelected1": "tendence.taux",
+"showSelected2": "itération"
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"fill": "#FFFFFF",
+"colour": "#000000",
+"size":        5,
+"showSelected": [ "tendence.taux", "itération" ],
+"help_showSelected": [ "tendence.taux", "itération" ] 
+},
+"types": {
+"x": "numeric",
+"y": "numeric",
+"key": "numeric",
+"showSelected1": "character",
+"showSelected2": "integer",
+"PANEL": "integer",
+"group": "character"
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected2",
+"showSelected1" 
+],
+"subset_order": [
+ "showSelected2",
+"showSelected1" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom10_segment_perteGrid": {
+ "geom": "segment",
+"classed": "geom10_segment_perteGrid",
+"aes": {
+"x": "pente",
+"y": "ordonnée",
+"key": "1",
+"xend": "after.pente",
+"yend": "after.ordonnée",
+"showSelected1": "tendence.taux",
+"showSelected2": "itération"
+},
+"params": {
+ "lineend": "butt",
+"na.rm": false,
+"na.rm": false,
+"colour": "#00BFFF",
+"showSelected": [ "tendence.taux", "itération" ],
+"help_showSelected": [ "tendence.taux", "itération" ] 
+},
+"types": {
+"x": "numeric",
+"xend": "numeric",
+"y": "numeric",
+"yend": "numeric",
+"key": "numeric",
+"showSelected1": "character",
+"showSelected2": "integer",
+"PANEL": "integer",
+"group": "character"
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected2",
+"showSelected1" 
+],
+"subset_order": [
+ "showSelected2",
+"showSelected1" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom11_point_perteGrid": {
+ "geom": "point",
+"classed": "geom11_point_perteGrid",
+"aes": {
+"x": "after.pente",
+"y": "after.ordonnée",
+"key": "1",
+"showSelected1": "tendence.taux",
+"showSelected2": "itération"
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"colour": "#00BFFF",
+"showSelected": [ "tendence.taux", "itération" ],
+"help_showSelected": [ "tendence.taux", "itération" ] 
+},
+"types": {
+"x": "numeric",
+"y": "numeric",
+"key": "numeric",
+"showSelected1": "character",
+"showSelected2": "integer",
+"PANEL": "integer",
+"group": "character"
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected2",
+"showSelected1" 
+],
+"subset_order": [
+ "showSelected2",
+"showSelected1" 
+],
+"chunks": 1,
+"total": 1 
+} 
+},
+"time": {
+ "variable": "itération",
+"ms":      500,
+"sequence": [ "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40" ] 
+},
+"duration": {
+ "tendence.taux":      500,
+"itération":      500 
+},
+"selectors": {
+ "ligne": {
+ "type": "multiple",
+"legend": true,
+"is.variable.value": false,
+"showSelected": true,
+"selected": [ "erreur", "prédiction" ],
+"levels": [ "erreur", "prédiction" ],
+"update": [
+ "geom2_segment_data",
+"geom3_line_data" 
+] 
+},
+"taux": {
+ "type": "multiple",
+"legend": true,
+"is.variable.value": false,
+"showSelected": true,
+"selected": [ "0.001", "0.01", "0.1", "1" ],
+"levels": [ "0.001", "0.01", "0.1", "1" ],
+"update": [
+ "geom5_line_perteIterations" 
+] 
+},
+"tendence.taux": {
+ "is.variable.value": false,
+"type": "single",
+"showSelected": true,
+"chunks": "tendence.taux",
+"clickSelects": true,
+"selected": "lin.haut 0.1",
+"levels": [ "constante 0.001", "constante 0.01", "constante 0.1", "constante 1", "lin.haut 0.001", "lin.haut 0.01", "lin.haut 0.1", "lin.haut 1", "lin.bas 0.001", "lin.bas 0.01", "lin.bas 0.1", "lin.bas 1", "quad. 0.001", "quad. 0.01", "quad. 0.1", "quad. 1", "sin 0.001", "sin 0.01", "sin 0.1", "sin 1" ],
+"update": [
+ "geom1_point_data",
+"geom2_segment_data",
+"geom3_line_data",
+"geom5_line_perteIterations",
+"geom6_point_perteIterations",
+"geom7_tile_perteGrid",
+"geom8_point_perteGrid",
+"geom9_point_perteGrid",
+"geom10_segment_perteGrid",
+"geom11_point_perteGrid" 
+],
+"duration":      500 
+},
+"itération": {
+ "is.variable.value": false,
+"type": "single",
+"showSelected": true,
+"clickSelects": true,
+"selected": "0",
+"levels": [ "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40" ],
+"update": [
+ "geom2_segment_data",
+"geom3_line_data",
+"geom4_tallrect_perteIterations",
+"geom6_point_perteIterations",
+"geom8_point_perteGrid",
+"geom9_point_perteGrid",
+"geom10_segment_perteGrid",
+"geom11_point_perteGrid" 
+],
+"duration":      500 
+} 
+},
+"plots": {
+ "data": {
+ "panel_margin_lines":     0.27,
+"legend": {
+ "ligne": {
+ "guide": "legend",
+"geoms": [ "path", "path" ],
+"title": "ligne",
+"class": "ligne",
+"selector": "ligne",
+"is_discrete": true,
+"legend_type": "colour",
+"text_size": "9.6pt",
+"title_size": "12pt",
+"entries": [
+ {
+ "pathcolour": "#F8766D",
+"pathsize":      0.5,
+"pathlinetype":        1,
+"label": "erreur" 
+},
+{
+ "pathcolour": "#00BFC4",
+"pathsize":      0.5,
+"pathlinetype":        1,
+"label": "prédiction" 
+} 
+] 
+} 
+},
+"strips": {
+ "top": [
+ "" 
+],
+"right": [
+ "" 
+],
+"n": {
+ "top":        0,
+"right":        0 
+} 
+},
+"layout": {
+ "PANEL": [ 1 ],
+"ROW": [ 1 ],
+"COL": [ 1 ],
+"SCALE_X": [ 1 ],
+"SCALE_Y": [ 1 ],
+"AXIS_X": [ true ],
+"AXIS_Y": [ true ],
+"coord_fixed": [ false ],
+"width_proportion": [        1 ],
+"height_proportion": [        1 ] 
+},
+"panel_background": {
+ "fill": "#FFFFFF",
+"colour": "transparent",
+"size":      0.5,
+"linetype":        1 
+},
+"panel_border": {
+ "fill": "transparent",
+"colour": "#7F7F7F",
+"size":      0.5,
+"linetype":        1 
+},
+"grid_major": {
+ "colour": "#E5E5E5",
+"size":      0.2,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+       -3,
+      -2,
+      -1,
+       0,
+       1,
+       2,
+       3 
+] 
+],
+"y": [
+ [
+       -5,
+       0,
+       5,
+      10,
+      15 
+] 
+] 
+} 
+},
+"grid_minor": {
+ "colour": "#FAFAFA",
+"size":      0.5,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+       -3,
+    -2.5,
+      -2,
+    -1.5,
+      -1,
+    -0.5,
+       0,
+     0.5,
+       1,
+     1.5,
+       2,
+     2.5,
+       3 
+] 
+],
+"y": [
+ [
+       -5,
+    -2.5,
+       0,
+     2.5,
+       5,
+     7.5,
+      10,
+    12.5,
+      15 
+] 
+] 
+} 
+},
+"axis1": {
+ "x": [
+       -3,
+      -2,
+      -1,
+       0,
+       1,
+       2,
+       3 
+],
+"xlab": [
+ "-3",
+"-2",
+"-1",
+"0",
+"1",
+"2",
+"3" 
+],
+"xrange": [ -3.215416, 3.249986 ],
+"xline": false,
+"xticks": true,
+"y": [
+       -5,
+       0,
+       5,
+      10,
+      15 
+],
+"ylab": [
+ "-5",
+"0",
+"5",
+"10",
+"15" 
+],
+"yrange": [ -5.303898, 15.71306 ],
+"yline": false,
+"yticks": true 
+},
+"xtitle": "entrée x",
+"strip_text_xsize": "12pt",
+"xsize": "12pt",
+"xangle":        0,
+"xanchor": "middle",
+"ytitle": "sortie y",
+"strip_text_ysize": "12pt",
+"ysize": "12pt",
+"yangle":        0,
+"yanchor": "end",
+"xlabs": [
+ "-3",
+"-2",
+"-1",
+"0",
+"1",
+"2",
+"3" 
+],
+"ylabs": [
+ "-5",
+"0",
+"5",
+"10",
+"15" 
+],
+"title": "Données et fonction de prédiction",
+"title_size": "14.4pt",
+"options": {
+ "width":     1000,
+"height":      250 
+},
+"span": {
+ "rowspan": null,
+"colspan":        2,
+"last_in_row": true 
+},
+"geoms": [
+ "geom1_point_data",
+"geom2_segment_data",
+"geom3_line_data" 
+] 
+},
+"perteIterations": {
+ "panel_margin_lines":     0.27,
+"legend": {
+ "taux": {
+ "guide": "legend",
+"geoms": "path",
+"title": "taux",
+"class": "taux",
+"selector": "taux",
+"is_discrete": true,
+"legend_type": "colour",
+"text_size": "9.6pt",
+"title_size": "12pt",
+"entries": [
+ {
+ "pathcolour": "#08306B",
+"pathsize":        4,
+"pathlinetype":        1,
+"label": "1" 
+},
+{
+ "pathcolour": "#2171B5",
+"pathsize":        4,
+"pathlinetype":        1,
+"label": "0.1" 
+},
+{
+ "pathcolour": "#6BAED6",
+"pathsize":        4,
+"pathlinetype":        1,
+"label": "0.01" 
+},
+{
+ "pathcolour": "#C6DBEF",
+"pathsize":        4,
+"pathlinetype":        1,
+"label": "0.001" 
+} 
+] 
+} 
+},
+"strips": {
+ "right": [
+ "constante",
+"lin.bas",
+"lin.haut",
+"quad.",
+"sin" 
+],
+"top": [
+ "",
+"",
+"",
+"",
+"" 
+],
+"n": {
+ "top":        1,
+"right":        1 
+} 
+},
+"layout": {
+ "PANEL": [ "1", "2", "3", "4", "5" ],
+"ROW": [ 1, 2, 3, 4, 5 ],
+"COL": [ 1, 1, 1, 1, 1 ],
+"tendence": [ "constante", "lin.bas", "lin.haut", "quad.", "sin" ],
+"SCALE_X": [ 1, 1, 1, 1, 1 ],
+"SCALE_Y": [ 1, 2, 3, 4, 5 ],
+"AXIS_Y": [ true, true, true, true, true ],
+"AXIS_X": [ false, false, false, false, true ],
+"coord_fixed": [ false, false, false, false, false ],
+"width_proportion": [        1,        1,        1,        1,        1 ],
+"height_proportion": [      0.2,      0.2,      0.2,      0.2,      0.2 ] 
+},
+"panel_background": {
+ "fill": "#FFFFFF",
+"colour": "transparent",
+"size":      0.5,
+"linetype":        1 
+},
+"panel_border": {
+ "fill": "transparent",
+"colour": "#7F7F7F",
+"size":      0.5,
+"linetype":        1 
+},
+"grid_major": {
+ "colour": "#E5E5E5",
+"size":      0.2,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+        0,
+      10,
+      20,
+      30,
+      40 
+],
+[
+        0,
+      10,
+      20,
+      30,
+      40 
+],
+[
+        0,
+      10,
+      20,
+      30,
+      40 
+],
+[
+        0,
+      10,
+      20,
+      30,
+      40 
+],
+[
+        0,
+      10,
+      20,
+      30,
+      40 
+] 
+],
+"y": [
+ [
+        1,
+     1.5,
+       2,
+     2.5,
+       3 
+],
+[
+        1,
+       2,
+       3 
+],
+[
+      2.5,
+       5,
+     7.5,
+      10 
+],
+[
+        3,
+       4,
+       5,
+       6 
+],
+[
+        5,
+     7.5,
+      10,
+    12.5 
+] 
+] 
+} 
+},
+"grid_minor": {
+ "colour": "#FAFAFA",
+"size":      0.5,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+        0,
+       5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40 
+],
+[
+        0,
+       5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40 
+],
+[
+        0,
+       5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40 
+],
+[
+        0,
+       5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40 
+],
+[
+        0,
+       5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40 
+] 
+],
+"y": [
+ [
+     0.75,
+       1,
+    1.25,
+     1.5,
+    1.75,
+       2,
+    2.25,
+     2.5,
+    2.75,
+       3,
+    3.25 
+],
+[
+        1,
+     1.5,
+       2,
+     2.5,
+       3,
+     3.5 
+],
+[
+     1.25,
+     2.5,
+    3.75,
+       5,
+    6.25,
+     7.5,
+    8.75,
+      10 
+],
+[
+      2.5,
+       3,
+     3.5,
+       4,
+     4.5,
+       5,
+     5.5,
+       6,
+     6.5 
+],
+[
+     3.75,
+       5,
+    6.25,
+     7.5,
+    8.75,
+      10,
+   11.25,
+    12.5 
+] 
+] 
+} 
+},
+"axis1": {
+ "x": [
+        0,
+      10,
+      20,
+      30,
+      40 
+],
+"xlab": [
+ "0",
+"10",
+"20",
+"30",
+"40" 
+],
+"xrange": [    -2.55,    42.55 ],
+"xline": false,
+"xticks": true,
+"y": [
+        1,
+     1.5,
+       2,
+     2.5,
+       3 
+],
+"ylab": [
+ "1.0",
+"1.5",
+"2.0",
+"2.5",
+"3.0" 
+],
+"yrange": [ 0.7396898, 3.334745 ],
+"yline": false,
+"yticks": true 
+},
+"axis2": {
+ "x": [
+        0,
+      10,
+      20,
+      30,
+      40 
+],
+"xlab": [
+ "0",
+"10",
+"20",
+"30",
+"40" 
+],
+"xrange": [    -2.55,    42.55 ],
+"xline": false,
+"xticks": true,
+"y": [
+        1,
+       2,
+       3 
+],
+"ylab": [
+ "1",
+"2",
+"3" 
+],
+"yrange": [ 0.7187153, 3.775724 ],
+"yline": false,
+"yticks": true 
+},
+"axis3": {
+ "x": [
+        0,
+      10,
+      20,
+      30,
+      40 
+],
+"xlab": [
+ "0",
+"10",
+"20",
+"30",
+"40" 
+],
+"xrange": [    -2.55,    42.55 ],
+"xline": false,
+"xticks": true,
+"y": [
+      2.5,
+       5,
+     7.5,
+      10 
+],
+"ylab": [
+ "2.5",
+"5.0",
+"7.5",
+"10.0" 
+],
+"yrange": [ 0.3731554, 11.05084 ],
+"yline": false,
+"yticks": true 
+},
+"axis4": {
+ "x": [
+        0,
+      10,
+      20,
+      30,
+      40 
+],
+"xlab": [
+ "0",
+"10",
+"20",
+"30",
+"40" 
+],
+"xrange": [    -2.55,    42.55 ],
+"xline": false,
+"xticks": true,
+"y": [
+        3,
+       4,
+       5,
+       6 
+],
+"ylab": [
+ "3",
+"4",
+"5",
+"6" 
+],
+"yrange": [ 2.348437, 6.546655 ],
+"yline": false,
+"yticks": true 
+},
+"axis5": {
+ "x": [
+        0,
+      10,
+      20,
+      30,
+      40 
+],
+"xlab": [
+ "0",
+"10",
+"20",
+"30",
+"40" 
+],
+"xrange": [    -2.55,    42.55 ],
+"xline": false,
+"xticks": true,
+"y": [
+        5,
+     7.5,
+      10,
+    12.5 
+],
+"ylab": [
+ "5.0",
+"7.5",
+"10.0",
+"12.5" 
+],
+"yrange": [ 3.512635, 13.02649 ],
+"yline": false,
+"yticks": true 
+},
+"xtitle": "itération",
+"strip_text_xsize": "12pt",
+"xsize": "12pt",
+"xangle":        0,
+"xanchor": "middle",
+"ytitle": "perte",
+"strip_text_ysize": "12pt",
+"ysize": "12pt",
+"yangle":        0,
+"yanchor": "end",
+"xlabs": [
+ "0",
+"10",
+"20",
+"30",
+"40" 
+],
+"ylabs": [
+ "1.0",
+"1.5",
+"2.0",
+"2.5",
+"3.0",
+"1",
+"2",
+"3",
+"5.0",
+"7.5",
+"10.0",
+"4",
+"5",
+"6",
+"12.5" 
+],
+"title": "Perte, choisir itération/données/taux",
+"title_size": "14.4pt",
+"options": {
+ "width":      400,
+"height":      500 
+},
+"span": {
+ "rowspan": null,
+"colspan": null,
+"last_in_row": null 
+},
+"geoms": [
+ "geom4_tallrect_perteIterations",
+"geom5_line_perteIterations",
+"geom6_point_perteIterations" 
+] 
+},
+"perteGrid": {
+ "panel_margin_lines":     0.27,
+"legend": {
+ "perte.relative": {
+ "guide": "legend",
+"geoms": "polygon",
+"title": "perte.relative",
+"class": "perte.relative",
+"selector": null,
+"is_discrete": false,
+"legend_type": [ "fill", "colour" ],
+"text_size": "9.6pt",
+"title_size": "12pt",
+"entries": [
+ {
+ "polygonfill": "#FF0000",
+"polygoncolour": "#FF0000",
+"polygonsize":      0.1,
+"polygonlinetype":        1,
+"label": "1.00" 
+},
+{
+ "polygonfill": "#FF6846",
+"polygoncolour": "#FF6846",
+"polygonsize":      0.1,
+"polygonlinetype":        1,
+"label": "0.75" 
+},
+{
+ "polygonfill": "#FF9E81",
+"polygoncolour": "#FF9E81",
+"polygonsize":      0.1,
+"polygonlinetype":        1,
+"label": "0.50" 
+},
+{
+ "polygonfill": "#FFCFBF",
+"polygoncolour": "#FFCFBF",
+"polygonsize":      0.1,
+"polygonlinetype":        1,
+"label": "0.25" 
+},
+{
+ "polygonfill": "#FFFFFF",
+"polygoncolour": "#FFFFFF",
+"polygonsize":      0.1,
+"polygonlinetype":        1,
+"label": "0.00" 
+} 
+] 
+} 
+},
+"strips": {
+ "top": [
+ "" 
+],
+"right": [
+ "" 
+],
+"n": {
+ "top":        0,
+"right":        0 
+} 
+},
+"layout": {
+ "PANEL": [ 1 ],
+"ROW": [ 1 ],
+"COL": [ 1 ],
+"SCALE_X": [ 1 ],
+"SCALE_Y": [ 1 ],
+"AXIS_X": [ true ],
+"AXIS_Y": [ true ],
+"coord_fixed": [ false ],
+"width_proportion": [        1 ],
+"height_proportion": [        1 ] 
+},
+"panel_background": {
+ "fill": "#FFFFFF",
+"colour": "transparent",
+"size":      0.5,
+"linetype":        1 
+},
+"panel_border": {
+ "fill": "transparent",
+"colour": "#7F7F7F",
+"size":      0.5,
+"linetype":        1 
+},
+"grid_major": {
+ "colour": "#E5E5E5",
+"size":      0.2,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+       -2,
+       0,
+       2,
+       4 
+] 
+],
+"y": [
+ [
+        0,
+     2.5,
+       5 
+] 
+] 
+} 
+},
+"grid_minor": {
+ "colour": "#FAFAFA",
+"size":      0.5,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+       -3,
+      -2,
+      -1,
+       0,
+       1,
+       2,
+       3,
+       4 
+] 
+],
+"y": [
+ [
+    -1.25,
+       0,
+    1.25,
+     2.5,
+    3.75,
+       5,
+    6.25 
+] 
+] 
+} 
+},
+"axis1": {
+ "x": [
+       -2,
+       0,
+       2,
+       4 
+],
+"xlab": [
+ "-2",
+"0",
+"2",
+"4" 
+],
+"xrange": [   -3.405,    4.405 ],
+"xline": false,
+"xticks": true,
+"y": [
+        0,
+     2.5,
+       5 
+],
+"ylab": [
+ "0.0",
+"2.5",
+"5.0" 
+],
+"yrange": [   -1.455,    7.455 ],
+"yline": false,
+"yticks": true 
+},
+"xtitle": "pente",
+"strip_text_xsize": "12pt",
+"xsize": "12pt",
+"xangle":        0,
+"xanchor": "middle",
+"ytitle": "ordonnée",
+"strip_text_ysize": "12pt",
+"ysize": "12pt",
+"yangle":        0,
+"yanchor": "end",
+"xlabs": [
+ "-2",
+"0",
+"2",
+"4" 
+],
+"ylabs": [
+ "0.0",
+"2.5",
+"5.0" 
+],
+"title": "Espace des paramètres, choisir itération",
+"title_size": "14.4pt",
+"options": {
+ "width":      400,
+"height":      500 
+},
+"span": {
+ "rowspan": null,
+"colspan": null,
+"last_in_row": null 
+},
+"geoms": [
+ "geom7_tile_perteGrid",
+"geom8_point_perteGrid",
+"geom9_point_perteGrid",
+"geom10_segment_perteGrid",
+"geom11_point_perteGrid" 
+] 
+} 
+},
+"source": "https://github.com/tdhock/2026-08-apprentissage/blob/master/figure-gradient-descent-regression-fr.R",
+"title": "Descente de gradient pour régression linéaire" 
+}
